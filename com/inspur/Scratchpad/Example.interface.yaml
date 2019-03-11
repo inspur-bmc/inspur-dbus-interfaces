@@ -1,0 +1,20 @@
+description: >
+    An interface for Scratchpad.
+properties:
+    - name: Example
+      type: enum[self.Greet]
+      description: >
+              hello/hi
+      default: 'Hello'
+
+enumerations:
+   - name: Greet
+     description: >
+             hello world
+     values:
+       - name: 'Hello'
+         description: >
+                 hello 
+       - name: 'Hi'
+         description: >
+                 hi
